@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: #0d1a2d;
+    color: white;
+}
+
+main{
+    background-color: #15273f;
+    box-shadow: 0px 4px 10px #0000007c;
+    border-radius: 10px;
+    margin: auto;
+    width: 350px;
+    height: 570px;
+}
+#equilibrium{
+    border-radius: 25px;
+    padding: 15px;
+    width: 320px;
+    height: 300px;
+}
+
+#principal{
+    padding: 0px 30px 0px 30px;
+}
+h4{
+    color: white;
+    margin: 0px 0px 20px 0px;
+}
+
+#desc{
+    margin: 18px 0px 0px 0px
+}
+
+#nf{
+    display: inline-flex;
+}
+
+#timeleft{
+    display: inline-flex;
+    margin-left: 120px;
+}
+
+#create{
+    padding: 10px;
+    padding-left: 30px;
+    display: inline-flex;
+}
+
+#avatar{
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+}
+
+#by{
+    display: inline-flex;
+    margin: 0px; 
+    margin-left: 15px;
+    align-items: center;
+}
+p a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+p a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+
+
+footer {
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+footer a {
+   color: #3e52a3;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #3e94a3;
+    font-size: 12px;
+    font-weight: bold;
+    transition: 0.5s;
+}
